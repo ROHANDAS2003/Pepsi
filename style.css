@@ -1,0 +1,85 @@
+*{
+    margin:0; padding:0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-padding-top: 7rem;
+    scroll-behavior: smooth;
+    background: #0062be;
+}
+
+section{
+    padding:2rem 9%;
+}
+
+.header{
+    position: fixed;
+    top:0; left: 0; right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+    height: 12vh;
+    background:#045bac;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+    padding:0.5rem 2%;
+}
+
+.header h1{
+    font-size: 2.5rem;
+    color: #fff;
+}
+#logo{
+    max-width: 4%;
+    cursor: pointer;
+}
+#logo:hover{
+    transition: all 0.5s ease-in-out;
+    transform: rotate(360deg);
+}
+#themePic{
+    display: flex;
+    left: 35%;
+    padding: 0 15rem;
+    margin-bottom: 0.8rem;
+}
+#themePic li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 2rem;
+    cursor: pointer;
+    transition: 0.5s;
+    max-width: 1rem;
+}
+#themePic li img{
+    padding-top: 1rem;
+    max-width: 260%;
+}
+#themePic li :hover{
+    transform: translateY(1rem);
+}
+#navi ul{
+    display: flex;
+    margin-right: 2rem;
+}
+#navi ul li{
+    list-style: none;
+    margin-left: 2.7rem;
+}
+#navi ul li a{
+    display: inline-block;
+    color: #fff;
+    font-size: 1.8rem;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: #045bac;
+    border-radius: 1.2rem;
+    padding: .5rem;
+}
+#navi ul li a:hover{
+    color: #045bac;
+    background-color: #fff;
+}

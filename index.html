@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en" id="html">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pepsi with twist</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="header">
+        <img src="about/logo.png" id="logo">
+        <h1>PEPSI</h1>
+        <div id="themePic">
+            <ul>
+                <li><img src="pepsi img and doc/pepsiOrignal.png" onclick="lightTheme()"></li>
+                <li><img src="pepsi img and doc/pepsiBlack.png" onclick="darkTheme()"></li>
+            </ul>
+        </div>
+        <div id="navi">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About us</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="Whats_new.html">What's new</a></li>
+                <li><a href="contact.html">Contact us</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <section id="home">
+        <div id="content">
+            <div class="content-left-col">
+                <h2>That's What <br><span>I like</span></h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi commodi nesciunt tenetur voluptas est
+                    quibusdam rem odit. Lorem ipsum dolor sit, amet consectetur adipisicing elit. A, eligendi?</p>
+                <a href="about.html">About us</a>
+            </div>
+            <div class="content-right-col">
+                <div class="imgBox">
+                    <img id="image" src="pepsi img and doc/pepsiOrignal.png">
+                </div>
+            </div>
+        </div>
+        <aside>
+            <ul class="Hsci">
+                <li><a href="https://www.facebook.com/PepsiIndia/?brand_redir=56381779049" target=”_blank” ><img src="contact/facebook.png"></a></li>
+                <li><a href="https://twitter.com/pepsi" target=”_blank” ><img src="contact/twitter.png"></a></li>
+                <li><a href="https://www.instagram.com/pepsi/" target=”_blank” ><img src="contact/instagram.png"></a></li>
+            </ul>
+        </aside>
+    </section>
+    
+    <section id="mango">
+        <div class="mvdo">
+            <div class="mvideo">
+                <video src="home/mangovdo.mp4" controls></video>
+                <span>Pepsi mango</span>
+            </div>
+        </div>
+    </section>
+
+    <section id="vdoDisplay">
+        <div class="Video-right-col">
+            <div class="vdo">
+                <div class="video">
+                    <video src="home/vdo1.mp4" controls class="v1"></video>
+                </div>
+                <div class="btn-sliders">
+                    <span onclick="vdoSlider('home/vdo1.mp4')">&nbsp; &nbsp; &nbsp;</span>
+                    <span onclick="vdoSlider('home/vdo2.mp4')">&nbsp; &nbsp; &nbsp;</span>
+                </div>
+            </div>
+        </div>
+        <div class="Video-left-col">
+            <h2>#BETTERWITHPEPSI <br><span>THAT'S WHAT I LIKE</span></span></h2>
+            <a href="#">view product</a>
+        </div>
+    </section>
+
+    <section id="black">
+        <div class="bvdo">
+            <div class="bvideo">
+                <video src="home/blackvdo.mp4" controls></video>
+                <span>Men cave</span>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        let image = document.getElementById('image');
+        let images = ['pepsi img and doc/pepsiOriginal.png', 'pepsi img and doc/pepsiBlack.png', 'pepsi img and doc/pepsiBlueCherry.png', 'pepsi img and doc/pepsiBlueMango.png', 'pepsi img and doc/pepsiBlackCherry.png', 'pepsi img and doc/pepsiBlackMango.png', 'pepsi img and doc/pepsiGrey.png', 'pepsi img and doc/pepsiGreyCherry.png', 'pepsi img and doc/pepsiWhite.png', 'pepsi img and doc/pepsiGold.png', 'pepsi img and doc/pepsiCola.png' ]
+        setInterval(function () {
+            let random = Math.floor(Math.random() * 11);
+            image.src = images[random];
+        }, 3000);
+
+         function lightTheme() {
+            document.getElementById("html").style.background = "#0062be";
+        }
+        function darkTheme() {
+            document.getElementById("html").style.background = "#1e1e1e";
+        }
+
+        function vdoSlider(anything) {
+            document.querySelector('.v1').src = anything;
+        }
+    </script>
+</body>
+</html>
