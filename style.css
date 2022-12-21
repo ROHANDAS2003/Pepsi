@@ -553,6 +553,26 @@ section{
 #right-side3 h1{
     font-size: 2.5rem;
 }
+#autoplay{
+    display: flex;
+}
+#auto-right h1{
+    color: #fff;
+    font-weight: 800;
+    font-size: 4rem;
+    padding-left: 2rem;
+}
+#hiest{
+    background-color: red;
+}
+#auto-left{
+    width: 50%;
+}
+#auto-left img{
+    margin-left: 5rem;
+    margin-top: 2rem;
+    width: 100%;
+}
 #first-row1{
     display: flex;
 }
