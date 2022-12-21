@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" id="html">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pepsi with twist</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="header">
+        <img src="about/logo.png" id="logo">
+        <h1>PEPSI</h1>
+        <div id="themePic">
+            <ul>
+                <li><img src="pepsi img and doc/pepsiOrignal.png" onclick="lightTheme()"></li>
+                <li><img src="pepsi img and doc/pepsiBlack.png" onclick="darkTheme()"></li>
+            </ul>
+        </div>
+        <div id="navi">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About us</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="Whats_new.html">What's new</a></li>
+                <li><a href="contact.html">Contact us</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <section id="pepsoda">
+        <div class="pvdo">
+            <div class="pvideo">
+                <video src="whats/pepsodavdo.mp4" controls></video>
+            </div>
+            <div id="buy"> 
+                <a href="#">BUY NOW</a>
+            </div>
+        </div>
+    </section>
+
+    <script>
+         function lightTheme() {
+            document.getElementById("html").style.background = "#0062be";
+        }
+        function darkTheme() {
+            document.getElementById("html").style.background = "#1e1e1e";
+        }
+    </script>
+
+</body>
+
+</html>

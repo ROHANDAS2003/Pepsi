@@ -454,3 +454,35 @@ section{
     margin: 3rem;
     line-height: 5rem;
 }
+
+#pepsoda{
+    margin-top: 79px;
+    background-image: url('whats/pepsoda.PNG');
+    background-repeat: no-repeat;
+    background-size: 140rem 70rem;
+    height: 105vh;
+}
+.pvdo{
+    height: 15.5rem;
+    width: 27rem;
+    margin-top: 410px;
+    margin-left: 450px;
+}
+.pvdo .pvideo video{
+    border: none;
+    width: 100%;
+}
+#buy{
+    margin-top: 6.1rem;
+    margin-left: 6rem;
+}
+#buy a{
+    text-decoration: none;
+    color: rgb(214, 0, 100);
+    font-weight: bolder;
+    background-color: #fff;
+    border: solid 2px rgb(214, 0, 100);
+    padding: .7rem 2.5rem;
+    border-radius: 2rem;
+    font-size: 2rem;
+}
