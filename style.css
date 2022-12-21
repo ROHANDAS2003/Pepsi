@@ -455,6 +455,28 @@ section{
     line-height: 5rem;
 }
 
+
+
+#nitroSec{
+    background-image: url('whats/nitro.png');
+    background-repeat: no-repeat;
+    background-size: 140rem 50rem;
+    height: 80vh;
+}
+#nitro{
+    margin-top: 33.7rem;
+    margin-left: 70rem;
+}
+#nitro a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: bolder;
+    background-color: rgb(7, 7, 194);
+    border: solid 1px #fff;
+    padding: .5rem 2.6rem;
+    border-radius: 2rem;
+    font-size: 1.5rem;
+}
 #pepsoda{
     margin-top: 79px;
     background-image: url('whats/pepsoda.PNG');
@@ -555,6 +577,7 @@ section{
 }
 #autoplay{
     display: flex;
+    background: #0062be;
 }
 #auto-right h1{
     color: #fff;
