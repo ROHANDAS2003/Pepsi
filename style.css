@@ -84,6 +84,47 @@ section{
     background-color: #fff;
 }
 
+
+.footer{
+    background:#045bac;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+}
+
+.footer .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(23rem, 1fr));
+    gap:60rem;
+}
+
+.footer .box-container .box a{
+    display: block;
+    font-size: 1.8rem;
+    font-weight: bold;
+    padding:1rem 0;
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer .box-container .box a i{
+    padding-right: .5rem;
+}
+
+.footer .box-container .box a:hover i{
+    padding-right: 2rem;
+    color: rgb(255, 123, 0);
+}
+
+.footer .credit{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    padding:2rem 1rem;
+    margin-top: 1rem;
+    color: #fff;
+}
+
+
+
 #home{
     height: 100vh;
 }
@@ -708,4 +749,13 @@ section{
 }
 #right-side5n h1{
     font-size: 2.5rem;
+}
+
+
+
+.social{
+    height: 100vh;
+}
+.products{
+    height: 100vh;
 }
