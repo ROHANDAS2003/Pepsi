@@ -804,6 +804,18 @@ section{
     border: 2px solid #0062be;
     font-weight: bold;
 }
+.faq{
+    background: rgb(212, 212, 212);
+    font-size: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    text-align: center;
+}
+.faq a{
+    text-decoration: none;
+    color: #045bac;
+    font-weight: bold;
+}
 .social{
     height: 48vh;
 }
