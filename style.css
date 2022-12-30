@@ -88,6 +88,7 @@ section{
 .footer{
     background:#045bac;
     box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+    height: 40vh;
 }
 
 .footer .box-container{
@@ -753,7 +754,7 @@ section{
 
 
 .heading{
-    height: 77vh;
+    height: 88vh;
     background-image: url('contact/bg5.jpg');
     background-repeat: no-repeat;
     background-size: cover;
@@ -804,7 +805,49 @@ section{
     font-weight: bold;
 }
 .social{
-    height: 100vh;
+    height: 48vh;
+}
+.social h1{
+    font-size: 4.5rem;
+    margin-bottom: 2rem;
+    margin-left: 12rem;
+    color: #fff;
+}
+.S_box{
+    display: flex;
+}
+.S_boxi{
+    margin-top: 11rem;
+    margin-left: 2rem;
+    color: #0062be;
+    background: #fff;
+    border-radius: 50%;
+    padding: 0.5rem;
+}
+.S_box1,.S_box2,.S_box3,.S_box4,.S_box5{
+    width: 25vw;
+    height: 25vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: brightness(70%);
+}
+.S_box1:hover,.S_box2:hover,.S_box3:hover,.S_box4:hover,.S_box5:hover{
+    filter: brightness(100%); 
+}
+.S_box1{
+    background-image: url(contact/social1.jpg);
+}
+.S_box2{
+    background-image: url(contact/social2.jpg);
+}
+.S_box3{
+    background-image: url(contact/social3.jpg);
+}
+.S_box4{
+    background-image: url(contact/social4.jpg);
+}
+.S_box5{
+    background-image: url(contact/social5.jpg);
 }
 .products{
     height: 100vh;
