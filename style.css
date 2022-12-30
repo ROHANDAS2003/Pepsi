@@ -804,6 +804,81 @@ section{
     border: 2px solid #0062be;
     font-weight: bold;
 }
+.article{
+    height: 55vh;
+}
+.article h1{ 
+    color: #fff;
+    font-size: 3.5rem;
+    margin-left: 1rem;
+    margin-bottom: 2rem;
+}
+.A_box{
+    display:flex;
+}
+.A_box1,.A_box2,.A_box3,.A_box4{
+    width: 35vw;
+    height: 35vh;
+    margin: 0 1rem 0 1rem;
+}
+.A_box1 h3,.A_box2 h3,.A_box3 h3,.A_box4 h3{
+    color: #fff;
+    font-size: 1.8rem;
+    padding: 1.5rem 1rem 0 1rem;
+}
+.A_box1 a,.A_box2 a,.A_box3 a,.A_box4 a{
+    color: #fff;
+    font-size: 1.8rem;
+    text-decoration: none;
+    padding: 1rem;
+    border: 2px solid #fff;
+    border-radius: 25px;
+    font-weight: bold;
+}
+.A_box1 a:hover,.A_box2 a:hover,.A_box3 a:hover,.A_box4 a:hover{
+    color: #045bac;
+    background: #fff;
+}
+.A_box1{
+    background-image: url('contact/article1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.A_box1 a{
+    position: relative;
+    top: 49%;
+    left: 10%;
+}
+.A_box2{
+    background-image: url('contact/article2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.A_box2 a{
+    position: relative;
+    top: 40%;
+    left: 10%;
+}
+.A_box3{
+    background-image: url('contact/article3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.A_box3 a{
+    position: relative;
+    top: 50%;
+    left: 10%;
+}
+.A_box4{
+    background-image: url('contact/article4.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.A_box4 a{
+    position: relative;
+    top: 40%;
+    left: 10%;
+}
 .faq{
     background: rgb(212, 212, 212);
     font-size: 2rem;
