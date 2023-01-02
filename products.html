@@ -1,13 +1,16 @@
 <!DOCTYPE html>
 <html lang="en" id="html">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pepsi with twist</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
     <div class="header">
@@ -32,6 +35,45 @@
 
     <section class="products">
 
+    <section class="slider">
+        <div class="swiper review-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide Sbox">
+                    <img src="pepsi img and doc/pepsiBlack.png" alt="" class="review_img" onclick="S2()">
+                </div>
+                <div class="swiper-slide Sbox">
+                    <img src="pepsi img and doc/pepsiOrignal.png" alt="" class="review_img" onclick="S1()">
+                </div>
+                <div class="swiper-slide Sbox">
+                    <img src="pepsi img and doc/pepsiGrey.png" alt="" class="review_img" onclick="S3()">
+                </div>
+                <div class="swiper-slide Sbox">
+                    <img src="pepsi img and doc/pepsiBlueMango.png" alt="" class="review_img" onclick="S4()">
+                </div>
+                <div class="swiper-slide Sbox">
+                    <img src="pepsi img and doc/pepsiBlueCherry.png" alt="" class="review_img" onclick="S5()">
+                </div>
+                <div class="swiper-slide Sbox">
+                    <img src="pepsi img and doc/pepsiBlackCherry.png" alt="" class="review_img" onclick="S6()">
+                </div>
+                <div class="swiper-slide Sbox">
+                    <img src="pepsi img and doc/pepsiBlackMango.png" alt="" class="review_img" onclick="S7()">
+                </div>
+                <div class="swiper-slide Sbox">
+                    <img src="pepsi img and doc/pepsiGreyCherry.png" alt="" class="review_img" onclick="S8()">
+                </div>
+                <div class="swiper-slide Sbox">
+                    <img src="pepsi img and doc/pepsiWhite.png" alt="" class="review_img" onclick="S9()">
+                </div>
+                <div class="swiper-slide Sbox">
+                    <img src="pepsi img and doc/pepsiGold.png" alt="" class="review_img" onclick="S10()">
+                </div>
+                <div class="swiper-slide Sbox">
+                    <img src="pepsi img and doc/pepsiCola.png" alt="" class="review_img" onclick="S11()">
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
     </section>
 
     <section class="footer">
@@ -44,9 +86,10 @@
             </div>
 
             <div class="box">
-                <a href="https://github.com/ROHANDAS2003", target="_blank"> <i class="fab fa-github"></i> Github </a>
-                <a href="https://twitter.com/Mr_RohanDas", target="_blank"> <i class="fab fa-twitter"></i> twitter </a>
-                <a href="https://www.instagram.com/mr.rohan_das_/", target="_blank"> <i class="fab fa-instagram"></i> instagram </a>
+                <a href="https://github.com/ROHANDAS2003" , target="_blank"> <i class="fab fa-github"></i> Github </a>
+                <a href="https://twitter.com/Mr_RohanDas" , target="_blank"> <i class="fab fa-twitter"></i> twitter </a>
+                <a href="https://www.instagram.com/mr.rohan_das_/" , target="_blank"> <i class="fab fa-instagram"></i>
+                    instagram </a>
                 <a href="#"> <i class="fab fa-linkedin"></i> linkedin </a>
             </div>
 
@@ -56,17 +99,9 @@
     </section>
 
 
-    <script>
-        function lightTheme() {
-            document.getElementById("html").style.background = "#0062be";
-        }
-        function darkTheme() {
-            document.getElementById("html").style.background = "#1e1e1e";
-        }
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
 
-        function vdoSlider(anything) {
-            document.querySelector('.v1').src = anything;
-        }
-    </script>
+    <script src="script.js"></script>
 </body>
+
 </html>
