@@ -910,15 +910,15 @@ section{
     background: #fff;
     border-radius: 50%;
     padding: 0.5rem;
+    filter: brightness(70%);
 }
 .S_box1,.S_box2,.S_box3,.S_box4,.S_box5{
     width: 25vw;
     height: 25vh;
     background-size: cover;
     background-repeat: no-repeat;
-    filter: brightness(70%);
 }
-.S_box1:hover,.S_box2:hover,.S_box3:hover,.S_box4:hover,.S_box5:hover{
+.S_boxi:hover{
     filter: brightness(100%); 
 }
 .S_box1{
