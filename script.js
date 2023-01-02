@@ -23,6 +23,10 @@ function darkTheme() {
   document.getElementById("html").style.background = "#1e1e1e";
 }
 
+function vdoSlider(anything) {
+  document.querySelector('.v1').src = anything;
+}
+
 let image = document.getElementById('image');
         let images = ['pepsi img and doc/pepsiOriginal.png', 'pepsi img and doc/pepsiBlack.png', 'pepsi img and doc/pepsiBlueCherry.png', 'pepsi img and doc/pepsiBlueMango.png', 'pepsi img and doc/pepsiBlackCherry.png', 'pepsi img and doc/pepsiBlackMango.png', 'pepsi img and doc/pepsiGrey.png', 'pepsi img and doc/pepsiGreyCherry.png', 'pepsi img and doc/pepsiWhite.png', 'pepsi img and doc/pepsiGold.png', 'pepsi img and doc/pepsiCola.png' ]
         setInterval(function () {
