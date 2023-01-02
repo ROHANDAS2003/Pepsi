@@ -23,6 +23,13 @@ function darkTheme() {
   document.getElementById("html").style.background = "#1e1e1e";
 }
 
+let image = document.getElementById('image');
+        let images = ['pepsi img and doc/pepsiOriginal.png', 'pepsi img and doc/pepsiBlack.png', 'pepsi img and doc/pepsiBlueCherry.png', 'pepsi img and doc/pepsiBlueMango.png', 'pepsi img and doc/pepsiBlackCherry.png', 'pepsi img and doc/pepsiBlackMango.png', 'pepsi img and doc/pepsiGrey.png', 'pepsi img and doc/pepsiGreyCherry.png', 'pepsi img and doc/pepsiWhite.png', 'pepsi img and doc/pepsiGold.png', 'pepsi img and doc/pepsiCola.png' ]
+        setInterval(function () {
+            let random = Math.floor(Math.random() * 11);
+            image.src = images[random];
+        }, 3000);
+
 var P1 = document.getElementById("P1");
 var P2 = document.getElementById("P2");
 var P3 = document.getElementById("P3");
