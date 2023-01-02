@@ -16,6 +16,13 @@ var swiper = new Swiper(".review-slider", {
     },
 });
 
+function lightTheme() {
+  document.getElementById("html").style.background = "#0062be";
+}
+function darkTheme() {
+  document.getElementById("html").style.background = "#1e1e1e";
+}
+
 var P1 = document.getElementById("P1");
 var P2 = document.getElementById("P2");
 var P3 = document.getElementById("P3");
